@@ -671,6 +671,15 @@ form input {
     padding: 0 10px;
     border: 1px solid #ccc;
 }
+form input:focus {
+    border-bottom: 3px solid rgb(0, 60, 255);
+    box-shadow: 0 10px 20px 0px rgba(0, 60, 255, 0.5);
+    transition: border-bottom .5s;
+    -webkit-transition: border-bottom .5s;
+    -moz-transition: border-bottom .5s;
+    -ms-transition: border-bottom .5s;
+    -o-transition: border-bottom .5s;
+}
 
 form .btn {
     width: 100%;
